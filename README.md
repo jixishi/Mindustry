@@ -1,2 +1,2 @@
-# Mindustry
-像素工厂  Mindustry的mod
+# Mindustry/mod
+像素工厂的更多矿物mod
