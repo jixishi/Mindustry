@@ -1,0 +1,43 @@
+{
+    "type":"GenericSmelter",
+    "name":"集成电路厂",
+    "description":"利用玻纤生产PCB，硅生产IC。",
+    "health":300,
+    "size":3,
+    "itemCapacity": 400,
+    "outputItem": {"item": "集成电路","amount": 20},
+    "hasPower":true,
+    "hasItems":true,
+    "craftTime": 300,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+		"power": 50.0,
+		"items": {
+			"items": [
+				{ "item": "silicon","amount": 80 },
+				{ "item": "metaglass","amount": 200 },
+			    { "item": "tin","amount": 100 },
+			    { "item": "silver","amount": 50 },
+				{ "item": "copper", "amount": 100 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 400 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "星核", "amount": 6 },
+		{ "item": "diamond", "amount": 100 },
+		{ "item": "silver", "amount": 300 },
+		{ "item": "steel", "amount": 400 },
+		{ "item": "bronze", "amount": 200 },
+		{ "item": "nickel", "amount": 600 },
+		{ "item": "super-tithorium", "amount": 300 },
+		{ "item": "tithorium", "amount": 600 },
+		{ "item": "electrum", "amount": 100 },
+		{ "item": "iron", "amount": 350 }
+	],
+	"category": "crafting",
+	"research": "电浆混合器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

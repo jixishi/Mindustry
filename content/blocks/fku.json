@@ -1,0 +1,36 @@
+{
+	"type":"Drill",
+	"name": "终极爆钻",
+	"description": "需要电和油启动，效率超级高，请配合超速",
+	"size":4,
+	"health": 10.0,
+	"hasPower":true,
+	"PowerUse":1,
+	"drawMineItem":true,
+	"drillTime":10,
+	"drawRim":false,
+	"hasItems":true,
+	"rotateSpeed":1001,
+	"warmupSpeed":101,
+	"tier":99999999999999,
+	"hasLiquids":true,
+	"liquidBoostIntensity":10000.0,
+	"itemCapacity":100000,
+	"liquidCapacity":600,
+	"craftEffect":"shockwave",
+	"consumes":{
+		"power":1000.0,
+		"liquid":{
+			"liquid":"oil",
+			"amount":3,
+			"booster":true
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount":1000},
+		{"item": "quantum-ingot","amount":100},
+		{"item": "星核","amount":300}
+	],
+	"category": "production",
+	"research": "electrum-drill"
+}

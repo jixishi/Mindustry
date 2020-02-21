@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "量子重构机",
+	"description": "生产量子酸(紫色)。",
+	"health": 2500,
+	"itemCapacity": 5,
+	"liquidCapacity": 160,
+	"outputLiquid": {"liquid": "quantum-liquid", "amount": 16},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 240,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 8.0,
+		"items": {
+			"items": [
+				{ "item": "plut", "amount": 3 },
+				{ "item": "super-tithorium", "amount": 4 },
+				{ "item": "nuclear-fuel", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "super-tithorium", "amount": 30 },
+		{ "item": "ruby", "amount": 8 },
+		{ "item": "comp-titanium", "amount": 150 },
+		{ "item": "nuclear-fuel", "amount": 25 }
+	],
+	"category": "crafting",
+	"research":"kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.12
+}

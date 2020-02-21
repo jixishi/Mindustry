@@ -1,0 +1,48 @@
+{
+	"type": "BurstTurret",
+	"name": "棱晶炮",
+	"description": "用棱晶作子弹，一种防御炮",
+	"health": 10000,
+	"size": 2,
+	"reload":300 ,
+	"range": 5000,
+	"spread": 500,
+	"burstSpacing": 50,
+	"ammoUseEffect": "bigShockwave",
+	"inaccuracy": 10,
+	"targetAir":true,
+	"targetGround":true,
+	"rotatespeed": 5,
+	"ammo": {
+		"爆炸棱晶": {
+		   "type": "BasicBulletType",
+           "bulletSprite": "[green]更多矿物-子弹-爆炸棱晶",
+			"splashDamageRadius":1000,
+			"splashDamage":5000,
+			"speed": 5,
+			"damage": 1000,
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 1,
+			"homingPower":1,
+			"homingRange":5000,
+			"lifetime":600,
+			"backColor":"ff0000",
+			"fontColor":"ff2200",
+			"heatColor":"ff0000",
+			"trailColor":"3C14eC"
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 400 },
+		{ "item": "phase-fabric", "amount": 500 },
+		{ "item": "silicon", "amount": 6000 },
+		{ "item": "super-tithorium", "amount": 800 },
+		{ "item": "quantum-ingot", "amount": 10 },
+		{ "item": "星核", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "星核钻探器"
+}

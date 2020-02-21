@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "钢",
+	"description": "一种碳和铁的合金，用于制造工业机器。",
+	"cost": 1.5,
+	"color": "b0c4de"
+}

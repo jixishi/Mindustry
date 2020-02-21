@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "星核解压器",
+	"description": "将星核解压为反物质.",
+	"outputItem": {"item": "反物质","amount": 1000.0},
+	"size": 1,
+	"itemCapacity": 2000,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"item": "星核"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "copper", "amount": 300 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "titanium", "amount": 250 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

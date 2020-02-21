@@ -1,0 +1,24 @@
+{
+    "type":"LaunchPad", 
+    "name":"高速发射器", 
+    "description":"更快的发射资源。", 
+    "health":800,
+    "size":3, 
+    "itemCapacity":500, 
+    "launchTime":5, 
+    "hasPower":true, 
+	"consumes": {
+		"power": 5.0
+	},
+	"requirements": [
+	    { "item": "titanium", "amount": 350 },
+	    { "item": "thorium", "amount": 200 },
+	    { "item": "silicon", "amount": 300 },
+		{ "item": "tithorium", "amount": 150 },
+		{ "item": "星核", "amount": 10 },
+		{ "item": "surge-alloy", "amount": 50 }
+	],
+	"category": "effect",
+	"research": "launch-pad-large"
+		
+}

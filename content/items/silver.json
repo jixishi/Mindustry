@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "银",
+	"description": "一种非常见材料",
+	"hardness": 2,
+	"cost": 1.0,
+	"color": "c0c0c0"
+}

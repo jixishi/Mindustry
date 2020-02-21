@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "镍",
+	"description": "一个常见的材料。",
+	"hardness": 2,
+	"cost": 1.0,
+	"color": "3cb371"
+}

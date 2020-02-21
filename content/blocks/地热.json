@@ -1,0 +1,31 @@
+{
+    "type": "ThermalGenerator",
+    "name": "终极地热",
+    "description": "比聚变还强的产能。",
+    "size": 8,
+    "health": 1000.0,
+    "itemCapacity": 5,
+	"liquidCapacity": 100,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidBoostIntensity":100.0,
+    "powerProduction": 1000,
+    "consumes": {
+           "liquid":{
+			"liquid":"water",
+			"amount":3,
+			"booster":true
+	 }
+	},
+    "requirements": [
+		{"item": "nickel", "amount": 3000},
+		{"item": "invar", "amount": 6100},
+		{"item": "silver", "amount": 4000},
+		{"item": "steel", "amount": 2200},
+		{"item": "tin", "amount": 1500},
+		{"item": "super-tithorium", "amount": 2000},
+		{"item": "quantum-ingot", "amount": 3000}
+	],
+	"category": "power",
+	"research": "thermal-generator"
+}

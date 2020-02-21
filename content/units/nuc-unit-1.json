@@ -1,0 +1,26 @@
+{
+    "type": "wraith",
+    "name": "核单位",
+    "health": 35000,
+    "mass": 4.0,
+    "speed": 0.3,
+    "maxVelocity": 5.0,
+    "drag": 0.2,
+    "range": 500.0,
+    "shootCone": 40.0,
+	"engineColor": "#64be64",
+    "flying": true,
+    "engineOffset": 1,
+    "engineSize": 1,
+    "baseRotateSpeed": 0.1,
+    "weapon": {
+        "reload": 40.0,
+        "width": 1.0,
+        "shots": 20,
+        "inaccuracy": 6.0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        "bullet": "standardCopper"
+    }
+}

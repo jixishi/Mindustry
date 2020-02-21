@@ -1,0 +1,28 @@
+{
+    "type": "SingleTypeGenerator",
+    "name": "反物质发电机",
+    "description": "提供几乎无穷的产能。",
+    "size": 3,
+    "health": 1000,
+    "itemCapacity": 50,
+    "hasLiquids": false,
+    "hasItems": true,
+    "powerProduction": 300,
+        "consumes": {
+		"items": {
+			"items": [
+				{ "item": "反物质", "amount": 10 }
+			],
+			"optional": true
+		}
+	},
+    "requirements": [
+		{"item": "copper", "amount": 1500},
+  {"item": "thorium", "amount": 1000},
+  {"item": "titanium", "amount": 1000},
+  {"item": "silicon", "amount": 1000},
+  {"item": "星核", "amount": 1}
+	],
+	"category": "power",
+	"research": "星核解压器"
+}

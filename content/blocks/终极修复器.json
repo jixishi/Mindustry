@@ -1,0 +1,23 @@
+{
+	"type":"RepairPoint",
+	"name":"终极修复点",
+	"description":"终极修复点全图范围一修一个。",
+	"size":2,
+	"hasItems":false,
+	"hasPower":true,
+	"hasLiquids":false,
+	"consumes": {
+		"power": 5.0 },
+	"requirements": [
+		{ "item": "surge-alloy", "amount":200},
+		{"item": "quantum-ingot","amount":100}
+	],
+	"health":50,
+	"craftEffect":"shockwave",
+	"updateEffect":"shockwave",
+	"PowerUse":10000.0,
+	"repairSpeed":996996,
+	"repairRadius":996996,
+	"category": "units",
+	"research": "duo"
+}

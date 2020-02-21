@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "宝石重构机",
+	"description": "你可以从它那里得到红宝石。",
+	"health": 1500,
+	"itemCapacity": 2,
+	"outputItem": {"item": "ruby", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 7200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 50.0,
+		"items": {
+			"items": [
+				{ "item": "diamond", "amount": 1},
+				{ "item": "redstone", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "nuclear-fuel", "amount": 12 },
+		{ "item": "diamond", "amount": 10 }
+	],
+	"category": "crafting",
+	"research":"kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+}

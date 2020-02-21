@@ -1,0 +1,18 @@
+{
+	"name": "超级战机升级器",
+	"description": "可以在这里升级为超级战机。",
+	"type": "MechPad",
+	"mech": "超级战机-mech",
+	"size": 3,
+	"consumes": {
+		"power": 10.0
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 900 },
+		{ "item": "ruby", "amount": 50 },
+		{ "item": "plut", "amount": 25 },
+		{ "item": "quantum-ingot", "amount": 8 }
+	],
+	"category": "upgrade",
+	"research": "fku"
+}

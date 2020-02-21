@@ -1,0 +1,12 @@
+{
+	"type":"DeflectorWall",
+	"name":"巨型相织布墙",
+	"description":"3x3的相织布墙",
+	"health":5400,
+	"size":3,
+	"requirements":[
+		{"item":"phase-fabric","amount":54}
+	],
+	"category":"defense",
+	"alwaysUnlocked":true
+}

@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "超级钛钍合金炉",
+	"description": "升级钍到超级钍.",
+	"health": 500,
+	"itemCapacity": 40,
+	"outputItem": {"item": "super-tithorium", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.8,
+		"items": {
+			"items": [
+				{ "item": "tithorium", "amount": 3 },
+				{ "item": "thorium", "amount": 20 },
+				{"item": "comp-thorium", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "tithorium", "amount": 30 },
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "星核",
+	"description": "蕴含巨大能量的晶体，极其稀有",
+	"hardness": 500,
+	"cost": 4.0,
+	"color": "0000ff"
+}

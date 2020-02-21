@@ -1,0 +1,18 @@
+{
+	"name": "小核心",
+	"description": "一个迷你核心",
+	"type": "CoreBlock",
+	"itemCapacity": 500,
+	"hasItems": true,
+	"health": 360,
+	"mech":"超级战机-mech",
+	"size": 2,
+	"breakable":false,
+	"requirements": [
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "星核", "amount": 100 }
+	],
+	"category": "effect",
+	"research": "vault"
+}

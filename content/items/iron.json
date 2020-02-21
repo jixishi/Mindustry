@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "铁",
+	"description": "一个常见的材料。",
+	"hardness": 2,
+	"cost": 0.8,
+	"color": "808080"
+}

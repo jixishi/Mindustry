@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "量子传送带",
+	"description": "最好的输送机。",
+	"health": 500,
+	"requirements": [
+		{"item": "titanium", "amount": 12},
+		{"item": "quantum-ingot", "amount": 2},
+		{"item": "super-tithorium", "amount": 6}
+	],
+	"category": "distribution",
+"research":"electrum-conveyor",
+	"speed": 0.35
+}

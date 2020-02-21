@@ -1,0 +1,9 @@
+{
+   "type": "material",
+   "name": "爆炸棱晶",
+   "description": "易爆且又着极强的冲击力。",
+   "color":"a52a2a",
+   "explosiveness":4000,
+   "flammability":100,
+   "radioactivity":8000  
+}

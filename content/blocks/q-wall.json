@@ -1,0 +1,12 @@
+{
+	"name": "量子墙",
+	"description": "OP Wall... Nothing more.",
+	"type": "Wall",
+	"health": 100000,
+	"size": 1,
+	"requirements": [
+		{ "item": "quantum-ingot", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

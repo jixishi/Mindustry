@@ -1,0 +1,24 @@
+{
+	"type": "SolidPump",
+	"name": "慢速物质生成机",
+	"description": "为了避免物质生成机把你的电耗光,UUtech研究出了慢速物质生成机",
+	"pumpAmount":0.00833333,
+	"result":"UU-Liquid",
+	"health":600.0,
+	"size":2,
+	"rotatespeed":0,
+	"hasPower":true,
+	"hasLiquids":true,
+	"updateEffect":"smeltsmoke",
+	"consumes":{
+		"power":250.0
+	},
+	"requirements":[
+		{ "item":"super-tithorium","amount":100 },
+		{"item": "quantum-ingot", "amount": 20}
+	],
+	"category":"crafting",
+	"research":"kiln",
+	"idleSound":"respawning",
+	"idleSoundVolume": 0.5
+}

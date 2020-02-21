@@ -1,0 +1,42 @@
+{
+    "type":"GenericSmelter",
+    "name":"防空导弹厂",
+    "description":"利用集成电路和钢。",
+    "health":300,
+    "size":3,
+    "itemCapacity": 4000,
+    "outputItem": {"item": "导弹","amount": 3},
+    "hasPower":true,
+    "hasItems":true,
+    "craftTime": 300,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+		"power": 50.0,
+		"items": {
+			"items": [
+				{ "item": "silicon","amount": 80 },
+				{ "item": "surge-alloy","amount": 10 },
+			    { "item": "集成电路","amount": 2 },
+			    { "item": "steel","amount": 500 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 400 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "星核", "amount": 6 },
+		{ "item": "diamond", "amount": 100 },
+		{ "item": "silver", "amount": 300 },
+		{ "item": "steel", "amount": 400 },
+		{ "item": "bronze", "amount": 200 },
+		{ "item": "nickel", "amount": 600 },
+		{ "item": "super-tithorium", "amount": 300 },
+		{ "item": "tithorium", "amount": 600 },
+		{ "item": "集成电路", "amount": 100 },
+		{ "item": "iron", "amount": 350 }
+	],
+	"category": "crafting",
+	"research": "电浆混合器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

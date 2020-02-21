@@ -1,0 +1,19 @@
+{
+	"name": "超级战机",
+	"description": "超级战机",
+	"speed": 5.0,
+	"buildPower": 200.0,
+	"engineColor": "666495",
+	"flying": true,
+	"health": 50000,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"shootSound": "laser",
+	"weapon": {
+		"name": "OOF",
+		"length": 3.5,
+		"reload": 22,
+		"alternate": true,
+		"bullet": "lancerLaser"
+	}
+}

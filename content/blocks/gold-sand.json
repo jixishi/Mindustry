@@ -1,0 +1,7 @@
+{
+	"type": "floor",
+	"name": "砂金",
+	"itemDrop": "golden-sand",
+	"variants": 1,
+	"playerUnmineable": true
+}

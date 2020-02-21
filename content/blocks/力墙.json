@@ -1,0 +1,28 @@
+{
+	"name": "新力墙",
+	"description": "更好的力墙。",
+	"type": "ForceProjector",
+	"health": 360,
+	"size": 3,
+	"radius":150,
+	"breakage":10000,
+	"cooldown":300,
+	"cooldownBrokenBase":5,
+	"consumes":{
+		"power":50.0,
+		"items":{
+			"items":[
+				{"item":"phase-fabric","amount":1}
+			],
+			"booster":true
+		}
+	},
+	"requirements": [
+	    { "item": "silicon", "amount": 150 },
+		{ "item": "星核", "amount": 5 },
+		{ "item": "super-tithorium", "amount": 60 },
+		{ "item": "redstone", "amount": 70 }
+	],
+	"category": "effect",
+	"research":"force-projector"
+}

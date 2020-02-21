@@ -1,0 +1,13 @@
+{
+	"name": "大红宝石墙",
+	"description": "The wall looks stronger。",
+	"type": "Wall",
+	"health": 180000,
+	"size": 2,
+	"requirements": [
+		{ "item": "ruby", "amount": 20 }
+	],
+	"category": "defense",
+	"alwaysUnlocked":true,
+	"research": "ruby-wall"
+}

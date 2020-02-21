@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "金",
+	"description": "一种罕见的资源。",
+	"cost": 0.5,
+	"color": "ffd700"
+}

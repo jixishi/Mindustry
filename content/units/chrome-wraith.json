@@ -1,0 +1,17 @@
+{
+	"type": "flyingUnit",
+	"name": "Chrome的幽灵",
+	"description": "通常令人讨厌和浮华。",
+	"speed": 0.5,
+	"flying": true,
+	"health": 90,
+	"engineOffset": 5.5,
+	"range": 160,
+	"weapon": {
+		"name": "chrome-blaster",
+		"length": 1.5,
+		"reload": 10,
+		"alternate": true,
+		"bullet": "lightning"
+	}
+}

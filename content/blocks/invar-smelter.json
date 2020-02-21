@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "殷钢冶炼厂",
+	"description": "使用镍和铁生产殷钢.",
+	"outputItem": { "item": "invar", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{ "item": "nickel", "amount": 2 },
+				{ "item": "iron", "amount": 2}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "nickel", "amount": 50 },
+		{ "item": "iron", "amount": 100 },
+		{ "item": "graphite", "amount": 30},
+		{ "item": "silicon", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "bronze-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

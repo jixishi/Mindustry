@@ -1,0 +1,12 @@
+{
+	"type":"Wall",
+	"name":"巨型铜墙",
+	"description":"3x3的铜墙",
+	"health":2880,
+	"size":3,
+	"requirements":[
+		{"item":"copper","amount":54}
+	],
+	"category":"defense",
+	"alwaysUnlocked":true
+}

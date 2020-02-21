@@ -1,0 +1,12 @@
+{
+	"type":"Wall",
+	"name":"巨型钛墙",
+	"description":"3x3的钛墙",
+	"health":3960,
+	"size":3,
+	"requirements":[
+		{"item":"titanium","amount":54}
+	],
+	"category":"defense",
+	"alwaysUnlocked":true
+}

@@ -1,0 +1,14 @@
+{
+	"name": "量子仓库",
+	"description": "最好的仓库。",
+	"type": "Vault",
+	"itemCapacity": 100000,
+	"hasItems": true,
+	"health": 1000,
+	"size": 3,
+	"requirements": [
+		{ "item": "quantum-ingot", "amount": 30 }
+	],
+	"category": "effect",
+	"research":"vault"
+}

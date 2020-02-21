@@ -1,0 +1,13 @@
+{
+	"type":"Wall",
+	"name":"巨型塑钢墙",
+	"description":"3x3的塑钢墙",
+	"health":6840,
+	"size":3,
+	"insulated":true,
+	"requirements":[
+		{"item":"plastanium","amount":54}
+	],
+	"category":"defense",
+	"alwaysUnlocked":true
+}

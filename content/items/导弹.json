@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "地空导弹",
+	"description": "防空炮的弹药",
+	"color": "22c0f4",
+	"explosiveness":4000
+}

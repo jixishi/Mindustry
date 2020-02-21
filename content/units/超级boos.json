@@ -1,0 +1,25 @@
+{
+    "type": "wraith",
+    "name": "超级boos",
+    "health": 500000,
+    "mass": 60.0,
+    "speed": 0.1,
+    "maxVelocity": 30.0,
+	"rotateSpeed": 15,
+    "drag": 0.1,
+    "shootCone": 60.0,
+	"engineColor": "#0020ff",
+    "flying": true,
+    "engineOffset": 1,
+    "engineSize": 1,
+    "weapon": {
+        "reload": 5.0,
+        "width": 10.0,
+        "shots": 600,
+        "inaccuracy": 30.0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        "bullet": "standardThorium"
+    }
+}

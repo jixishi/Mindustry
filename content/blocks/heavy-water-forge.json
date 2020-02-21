@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "重水提取器",
+	"description": "用水来生产重水。",
+	"itemCapacity": 200,
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 1800
+		}
+	},
+  	"liquidCapacity": 60000,
+	"outputLiquid": {"liquid": "heavy-water", "amount": 180},
+	"requirements": [
+		{ "item": "quantum-ingot", "amount": 26 }
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

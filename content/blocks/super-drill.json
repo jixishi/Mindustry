@@ -1,0 +1,22 @@
+{
+	"name": "超级钻头",
+	"description": "最好的钻……及其2 x2",
+	"type": "Drill",
+	"size": 2,
+	"health": 1000,
+	"tier": 50,
+	"drillTime": 250,
+	"consumes": {
+		"power": 8.0
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.5,
+			"optional":true }
+	},
+	"requirements": [
+		{ "item": "super-tithorium", "amount": 30 },
+		{"item": "星核", "amount": 2}
+	],
+	"category": "production",
+	"research":"fku"
+}

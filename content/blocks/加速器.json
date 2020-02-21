@@ -1,0 +1,29 @@
+{
+	"name": "新加速器",
+	"description": "新加速器",
+	"type": "OverdriveProjector"
+	"health": 160,
+	"size": 2,
+	"range": 120,
+	"reload": 45
+	"speedBoost": 45.0,
+	"consumes": {
+		"power": 5000.0
+        "items":{
+			"items":[
+				{"item":"phase-fabric","amount":1}
+			]
+			"booster":true
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "星核", "amount": 5},
+		{ "item": "super-tithorium", "amount": 60 },
+		{"item": "quantum-ingot","amount":60},
+		{ "item": "redstone", "amount": 100 }
+	],
+	"category": "effect",
+	"research":"overdrive-projector"
+}

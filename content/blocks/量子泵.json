@@ -1,0 +1,24 @@
+{
+    "type": "Pump",
+    "name": "量子泵",
+    "description": "超级水泵",
+    "size": 3,
+    "health": 1000.0,
+	"liquidCapacity": 30000,
+    "hasLiquids": true,
+    "pumpAmount": 100.0,
+    "consumes": {
+    "power":50.0
+	},
+    "requirements": [
+		{"item": "nickel", "amount": 300},
+		{"item": "invar", "amount": 600},
+		{"item": "silver", "amount": 500},
+		{"item": "steel", "amount": 200},
+		{"item": "tin", "amount": 200},
+		{"item": "super-tithorium", "amount": 10},
+		{"item": "quantum-ingot", "amount": 10}
+	],
+	"category": "liquid",
+	"research": "thermal-pump"
+}

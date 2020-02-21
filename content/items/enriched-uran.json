@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "富集铀",
+	"description": "放射性物质比铀还多",
+	"hardness": 5,
+	"cost": 6.0,
+	"color": "#7CFC00",
+	"radioactivity": 1.8
+	"explosiveness": 0.2
+	"flammability": 0.3
+}

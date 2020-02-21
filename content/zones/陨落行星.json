@@ -1,0 +1,32 @@
+{
+	"name": "陨落行星",
+	"description": "这是一颗陨落的行星，收集星核，赢得后续的胜利.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 1200},
+    	{"item": "lead", "amount": 800}
+    	{"item": "titanium", "amount": 500}
+    	{"item": "silicon", "amount": 500}
+    	{"item": "graphite", "amount": 500}
+    	{"item": "thorium", "amount": 500}
+    	{"item": "plastanium", "amount": 500}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "desolateRift", 
+    		"wave": 3
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "kiln"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "solar-panel"
+    	}
+    ],
+    "resources": ["copper", "titanium", "lead", "星核", "sand", "thorium"]
+}

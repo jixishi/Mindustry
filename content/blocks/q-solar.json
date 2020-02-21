@@ -1,0 +1,14 @@
+{
+	"type": "SolarGenerator",
+	"name": "量子太阳能板",
+	"description": "这种太阳能电池板是最好的能源发电机之一。",
+	"size": 3,
+	"health": 200,
+    "powerProduction": 20,
+	"requirements": [
+		{"item": "quantum-ingot", "amount": 15},
+		{"item": "titanium", "amount": 40}
+	],
+	"category": "power",
+	"research":"kiln"
+}

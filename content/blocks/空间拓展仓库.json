@@ -1,0 +1,17 @@
+{
+	"name": "空间拓展仓库",
+	"description": "维度工程学的杰作，it's bigger inside！",
+	"type": "Vault",
+	"itemCapacity": 3000000,
+	"hasItems": true,
+	"health": 10000,
+	"size": 3,
+	"requirements": [
+		{ "item": "星核", "amount": 20 },
+		{ "item": "quantum-ingot", "amount": 30 },
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "thorium", "amount": 70 }
+	],
+	"category": "effect",
+	"research": "星核解压器"
+}

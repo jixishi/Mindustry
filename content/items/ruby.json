@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "红宝石",
+	"description": "红宝石球……或重造钻石。",
+	"hardness": 10,
+	"cost": 8.0,
+	"color": "#DC143C",
+	"radioactivity": 0.0
+	"explosiveness": 0.0
+	"flammability": 0.0
+}

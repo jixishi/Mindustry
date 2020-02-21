@@ -1,0 +1,30 @@
+{
+	"type":"GenericSmelter",
+	"name":"红石冶炼炉",
+	"description":"用比岩浆还高的温度将红石融化成液体",
+	"size":2,
+	"health":420.0,
+	"hasItems":true,
+	"hasLiquids":true,
+	"hasPower":true,
+	"requirements":[
+		{"item":"redstone","amount":50},
+		{"item":"silicon","amount":60},
+		{"item":"plastanium","amount":40},
+		{"item":"lead","amount":120}
+	],
+	"craftTime":40,
+	"consumes":{
+		"power":5.0,
+		"items":{
+			"items":[
+				{"item":"redstone","amount":1}
+			]
+		}
+	},
+	"liquidCapacity":60,
+	"updateEffect": "smeltsmoke",
+	"outputLiquid":{"liquid":"destabilized-redstone","amount":10},
+	"category":"crafting",
+	"alwaysUnlocked":true
+}

@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "钨",
+	"description": "一种罕见的资源。",
+	"hardness": 4,
+	"cost": 2.0,
+	"color": "4682b4"
+}

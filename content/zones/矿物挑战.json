@@ -1,0 +1,25 @@
+{
+	"name": "[red]矿物[pink]挑战[purple]地图",
+	"description": "[red]建议科技树全开后挑战
+[yellow]250波[white]有惊喜哟
+300波通过。
+",
+    "conditionWave": 10,
+    "launchPeriod": 10,
+    "loadout" : "basicNucleus",
+        "startingItems": [
+    	{"item": "copper", "amount": 0},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand"]
+}

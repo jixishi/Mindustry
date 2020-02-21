@@ -1,0 +1,12 @@
+{
+	"name": "大量子墙",
+	"description": "OP Wall... 2x2... wow...",
+	"type": "Wall",
+	"health": 200000,
+	"size": 2,
+	"requirements": [
+		{ "item": "quantum-ingot", "amount": 12 }
+	],
+	"category": "defense",
+	"research": "q-wall"
+}

@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter",
+	"name": "电能实体化",
+	"description": "将能量变为实体.",
+	"outputItem": {"item": "能量体","amount": 1.0},
+	"size": 1,
+	"itemCapacity": 20,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 100.0
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 2 }
+	],
+	"category": "crafting",
+	"research": "solar-panel",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,23 @@
+{
+	"type":"MassDriver",
+	"name":"超级传送器",
+	"description":"超远距离，大量物资需要配合超级下载器",
+	"size":1,
+	"health":500.0,
+	"hasPower":true,
+	"hasLiquids":true,
+	"hasItems":true,
+	"itemCapacity":500,
+	"range":400,
+	"reloadTime":50,
+	"consumes":{
+		"power":10.0
+	},
+	"requirements":[
+		{"item":"星核","amount":1}
+	],
+	"category":"distribution",
+	"research": "超级下载器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

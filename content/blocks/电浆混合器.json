@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "电浆混合器",
+	"description": "生产电浆。",
+	"health": 2000,
+	"itemCapacity": 200,
+	"outputItem": {"item": "电浆", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{ "item": "quantum-ingot", "amount": 1 },
+				{ "item": "能量体", "amount": 100 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 650 },
+		{ "item": "thorium", "amount": 800 },
+		{ "item": "silicon", "amount": 600 },
+		{ "item": "星核", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "电实体化",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

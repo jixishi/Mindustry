@@ -1,0 +1,10 @@
+{
+	"name":"不稳定熔融红石",
+	"description":"融化的红石,用于发电和制造原子结晶",
+	"heatCapacity":0.5,
+	"temperature":3.5,
+	"viscosity":0.9,
+	"flammability":0.0,
+	"explosiveness":0.5,
+	"color":"8F3939"
+}

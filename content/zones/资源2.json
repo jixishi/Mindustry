@@ -1,0 +1,21 @@
+{
+	"name": "矿物资源",
+	"description": "本地图适配矿物mod资源。",
+    "conditionWave": 10,
+    "launchPeriod": 10,
+        "startingItems": [
+    	{"item": "copper", "amount": 0}
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand"]
+}

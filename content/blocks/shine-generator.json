@@ -1,0 +1,25 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "金发电机",
+	"description": "神奇地从金粉中产生能量，不要问为什么。",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 30,
+	"powerProduction": 1.2,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "gold", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "electrum", "amount": 50 }
+	],
+	"category": "power",
+	"research": "silver-crucible"
+}

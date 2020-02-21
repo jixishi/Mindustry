@@ -1,0 +1,10 @@
+{
+	"name":"UU液体",
+	"description":"UUtech的核心,可以用电力制造,用来制造各种物品",
+	"heatCapacity":0.3,
+	"temperature":0.1,
+	"viscosity":0.5,
+	"flammability":0.5,
+	"explosiveness":1.5,
+	"color":"6f00d2"
+}

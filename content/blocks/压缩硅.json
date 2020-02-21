@@ -1,0 +1,32 @@
+{
+	"type":"GenericSmelter",
+	"name":"压缩硅厂",
+	"description":"永不硅零",
+	"outputItem":{"item":"silicon","amount":2},
+	"size":2,
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity":50,
+	"craftTime":6,
+	"updateEffect":"smeltsmoke",
+	"consumes":{
+		"power":5.0,
+		"items":{
+			"items":[
+				{"item":"coal","amount":2},
+				{"item":"sand","amount":4}
+			]
+		}
+	},
+	"requirements":[
+		{"item":"lead","amount":800},
+		{"item":"silicon","amount":700},
+		{"item":"thorium","amount":650},
+		{"item":"redstone","amount":800},
+		{"item":"plastanium","amount":450},
+		{"item":"surge-alloy","amount":200}
+	],
+	"category":"crafting",
+	"research": "kiln"
+}

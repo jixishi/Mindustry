@@ -1,0 +1,177 @@
+{
+     "type":"DoubleTurret",
+     "name":"盖特炮", 
+     "description":"出自于红警。", 
+     "health":800,
+     "size":2,
+     "shotWidth":4,
+     "targetAir":true,
+     "targetGround":true,
+     "rotatespeed": 20,
+     "cooldown":0.03,
+     "restitution":0.06,
+     "shots": 30,
+     "burstSpacing":15,
+     "reload":1,
+     "range":200,
+     "ammo": {
+       "copper": {
+       "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 6,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+       "silicon":{
+       "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+          "speed": 60,
+		"damage": 9,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+       },
+       "surge-alloy":{
+       "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+        "speed": 60,
+		"damage": 12,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+       },
+       "uran": {
+       "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 14,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "thorium": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 13,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "titanium": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 8,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "iron": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 7,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "steel": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 12,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "plastanium": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	   "speed": 60,
+		"damage": 11,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+  },
+        "graphite": {
+        "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 5,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      },
+      "invar": {
+      "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 10,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      },
+      "nickel": {
+      "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 4,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      },
+      "metaglass": {
+      "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 9,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      },
+      "sand": {
+      "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 1,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      },
+      "lead": {
+      "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-子弹-盖特",
+	     "speed": 60,
+		"damage": 5,
+		"lifetime":600,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 5
+      }
+},
+      "requirements": [
+		{ "item": "surge-alloy", "amount": 80 },
+		{ "item": "copper", "amount": 1200 },
+		{ "item": "silicon", "amount": 800 },
+		{ "item": "titanium", "amount": 600 }
+	],
+	"category": "turret",
+	"research": "激光炮"
+}

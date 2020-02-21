@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "反物质-煤转换器",
+	"description": "将反物质正化为煤.",
+	"outputItem": {"item": "coal","amount": 3.0},
+	"size": 1,
+	"itemCapacity": 20,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"item": "反物质"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 25 },
+		{ "item": "copper", "amount": 30 },
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "titanium", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "反物质发电机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "钚",
+	"description": "在这个游戏中最具放射性的物质之一。",
+	"hardness": 6,
+	"cost": 9.0,
+	"color": "#A9A9A9",
+	"radioactivity": 2.4
+	"explosiveness": 0.7
+	"flammability": 0.0
+}

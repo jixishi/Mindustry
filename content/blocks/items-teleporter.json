@@ -1,0 +1,33 @@
+{
+	"type":"MassDriver",
+	"name":"物品传送器",
+	"description":"一个小型质驱,速度比钛传送带快",
+	"size":1,
+	"health":300.0,
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity":30,
+	"range":320,
+	"reloadTime":150,
+	"rotateSpeed":0.05,
+	"shake":0,
+	"minDistribute":1,
+	"knockback":3,
+	"shootEffect":"none",
+	"smokeEffect":"none",
+	"recieveEffect":"none",
+	"buildCostMultiplier":0.10526315,
+	"consumes":{
+		"power":10.0
+	},
+	"requirements":[
+		{"item":"copper","amount":100},
+		{"item":"lead","amount":90},
+		{"item":"titanium","amount":50},
+		{"item":"silicon","amount":40},
+		{"item":"redstone","amount":60}
+	],
+	"category":"distribution",
+	"alwaysUnlocked":true
+}

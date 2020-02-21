@@ -1,0 +1,35 @@
+{
+	"name": "超级boos",
+	"description": "生产超级boss.",
+	"type": "UnitFactory",
+	"unitType": "超级boos",
+	"size": 4,
+	"produceTime": 350,
+	"consumes": {
+		"power": 600.0,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 1000},
+				{"item": "quantum-ingot", "amount": 80},
+				{"item": "星核", "amount": 100}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 800 },
+		{ "item": "surge-alloy", "amount": 240 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "titanium", "amount": 320 },
+		{ "item": "星核", "amount": 200 },
+		{ "item": "steel", "amount": 400 },
+		{ "item": "bronze", "amount": 200 },
+		{ "item": "nickel", "amount": 600 },
+		{ "item": "super-tithorium", "amount": 300 },
+		{"item": "quantum-ingot", "amount": 20},
+		{ "item": "tithorium", "amount": 600 },
+		{ "item": "electrum", "amount": 100 },
+		{ "item": "iron", "amount": 350 }
+	],
+	"category": "units",
+	"research": "电浆炮"
+}

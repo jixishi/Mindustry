@@ -1,0 +1,40 @@
+{
+    "type":"GenericSmelter",
+    "name":"棱晶重构厂",
+    "description":"利用粒子重构把爆混和红宝石进行重构。",
+    "health":300,
+    "size":3,
+    "itemCapacity": 400,
+    "outputItem": {"item": "爆炸棱晶","amount": 1},
+    "hasPower":true,
+    "hasItems":true,
+    "craftTime": 300,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+		"power": 5000.0,
+		"items": {
+			"items": [
+				{ "item": "blast-compound","amount": 300 },
+				{ "item": "ruby", "amount": 100 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 400 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "redstone", "amount": 300 },
+		{ "item": "diamond", "amount": 100 },
+		{ "item": "silver", "amount": 300 },
+		{ "item": "steel", "amount": 400 },
+		{ "item": "bronze", "amount": 200 },
+		{ "item": "nickel", "amount": 600 },
+		{ "item": "super-tithorium", "amount": 300 },
+		{ "item": "tithorium", "amount": 600 },
+		{ "item": "electrum", "amount": 100 },
+		{ "item": "iron", "amount": 350 }
+	],
+	"category": "crafting",
+	"research": "电浆混合器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

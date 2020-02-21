@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "先进高炉",
+	"description": "可以更高效的生产钢.",
+	"outputItem": { "item": "steel", "amount": 6},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 360,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 10 }
+				{ "item": "iron", "amount": 5}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "steel", "amount": 50 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "iron", "amount": 200 },
+		{ "item": "titanium", "amount": 30},
+		{ "item": "graphite", "amount": 40}
+	],
+	"category": "crafting",
+	"research": "blast-furnace",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

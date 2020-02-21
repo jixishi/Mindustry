@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"name": "大硅厂",
+	"description": "可以输出100硅的硅厂.",
+	"outputItem": {
+		"item": "silicon", "amount": 100
+	},
+	"itemCapacity": 200,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 450,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 100.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 40 },
+				{ "item": "sand", "amount": 120 }
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.2
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 500 },
+		{ "item": "plastanium", "amount": 1000 },
+		{ "item": "silicon", "amount": 1500 },
+		{ "item": "thorium", "amount": 1000 },
+		{ "item": "phase-fabric", "amount": 1000 },
+		{ "item": "surge-alloy", "amount": 2500 },
+		{ "item": "electrum", "amount": 1500 },
+		{ "item": "invar", "amount": 1000 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

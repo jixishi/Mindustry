@@ -1,0 +1,12 @@
+{
+	"name": "银墙",
+	"description": "一堵银色的墙，不是特别有用。",
+	"type": "Wall",
+	"health": 600,
+	"size": 2,
+	"requirements": [
+		{ "item": "silver", "amount": 40 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

@@ -1,0 +1,8 @@
+{
+	"name": "量子酸(好像是)",
+	"description": "我不知道我们是怎么得到这个的。",
+	"temperature": 0.2,
+    "viscosity": 0.5,
+    "effect": "melting",
+    "color": "4B0082"
+}

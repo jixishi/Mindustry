@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "砂金过滤器",
+	"description": "可以让砂金分离出金.",
+	"liquidCapacity": 50,
+	"outputItem": { "item": "gold", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"items": {
+			"items": [
+				{ "item": "golden-sand", "amount": 5 }
+			]
+		},
+		"liquid": { "liquid": "water", "amount": 0.25}
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 50 },
+		{ "item": "silver", "amount": 80 },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

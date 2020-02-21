@@ -1,0 +1,18 @@
+{
+	"name": "星核钻探器",
+	"description": "用于钻探星核，当然，钻探其它东西也行.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 501,
+	"drillTime": 1000,
+	"consumes": {
+		"power": 5.0
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 200 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 50 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

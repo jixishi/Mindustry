@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "钛钍合金炉",
+	"description": "钛和钍结合产生钍.",
+	"health": 200,
+	"itemCapacity": 20,
+	"outputItem": {"item": "tithorium", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.3,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 6 },
+				{ "item": "thorium", "amount": 4 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 65 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

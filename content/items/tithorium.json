@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "钛钍合金",
+	"description": "它是钛和钍的结合。",
+	"hardness": 4,
+	"cost": 4.0,
+	"color": "#4682b4",
+	"radioactivity": 0.65
+}

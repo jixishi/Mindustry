@@ -1,0 +1,13 @@
+{
+	"type":"Unloader",
+	"name":"超级卸载器",
+	"description":"更快的卸载器,能够更好的利用仓库",
+	"speed":2.5,
+	"requirements":[
+		{"item":"redstone","amount":160},
+		{"item":"silicon","amount":260},
+		{"item":"quantum-ingot","amount":1}
+	],
+	"category":"effect",
+	"research": "unloader"
+}

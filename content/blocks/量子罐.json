@@ -1,0 +1,15 @@
+{
+      "type":"LiquidTank",
+      "name":"量子罐",
+      "description": "最好的蓄液罐",
+      "size":3,
+      "health": 600,
+      "liquidCapacity": 600000000,
+      "requirements": [
+		{"item": "metaglass", "amount": 160},
+		{"item": "quantum-ingot", "amount": 18},
+		{"item": "super-tithorium", "amount": 9}
+	],
+	"category": "liquid",
+    "research":"liquid-tank"
+    }

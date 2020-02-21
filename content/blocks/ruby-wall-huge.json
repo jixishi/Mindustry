@@ -1,0 +1,12 @@
+{
+	"name": "巨型红宝石墙",
+	"description": "A wall made of rubies！",
+	"type": "Wall",
+	"health": 180000,
+	"size": 3,
+	"requirements": [
+		{ "item": "ruby", "amount": 30 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

@@ -1,0 +1,7 @@
+{
+	"type":"OreBlock",
+	"name":"红石矿",
+	"variants":1,
+	"itemDrop":"redstone",
+	"hasShadow":false
+}

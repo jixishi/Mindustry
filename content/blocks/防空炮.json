@@ -1,0 +1,46 @@
+{
+     "type":"DoubleTurret",
+     "name":"防空炮", 
+     "description":"专业防空炮", 
+     "health":1800,
+     "size":3,
+     "shotWidth":6,
+     "targetAir":true,
+     "targetGround":false,
+     "rotatespeed": 20,
+     "cooldown":0.03,
+     "restitution":0.06,
+     "shots": 6,
+     "burstSpacing":15,
+     "reload":6,
+     "range":600,
+     "ammo": {
+       "导弹": {
+       "type": "BasicBulletType",
+       "bulletSprite": "[green]更多矿物-防空导弹",
+       "trailColor": "ff0000",
+       "splashDamageRadius":50,
+	   "splashDamage":300,
+	   "speed": 30,
+		"damage": 800,
+		"homingPower":1,
+		"homingRange":3000,
+		"lifetime":600,
+		"lightining":3,
+		"lightningLength":1,
+		"incendChance": 1,
+		"fragBullets":10,
+		"ammoMultiplier": 6
+  }
+},
+      "requirements": [
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 1200 },
+		{ "item": "silicon", "amount": 6000 },
+		{ "item": "super-tithorium", "amount": 600 },
+		{ "item": "quantum-ingot", "amount": 3 },
+		{ "item": "星核", "amount": 8 }
+	],
+	"category": "turret",
+	"research": "激光炮"
+}

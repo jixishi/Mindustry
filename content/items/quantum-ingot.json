@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "量子锭",
+	"description": "你们……这是世界上最好的材料。",
+	"hardness": 8,
+	"cost": 15.0,
+	"color": "#800080",
+	"radioactivity": 0.2
+}

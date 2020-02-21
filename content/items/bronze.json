@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "青铜",
+	"description": "一种铜和锡的合金，在早期游戏中很有用。",
+	"cost": 1.0,
+	"color": "daa520"
+}

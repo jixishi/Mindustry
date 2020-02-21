@@ -1,0 +1,48 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "电浆炮",
+	"description": "用电浆作子弹，一种战舰主炮",
+	"health": 10000,
+	"size": 3,
+	"reload":300 ,
+	"range": 8000,
+	"ammoUseEffect": "bigShockwave",
+	"inaccuracy": 10,
+	"targetAir":true,
+	"targetGround":true,
+	"rotatespeed": 5,
+	"ammo": {
+		"电浆": {
+		   "type": "BasicBulletType",
+           "bulletSprite": "[green]更多矿物-子弹-电浆",
+			"splashDamageRadius":50,
+			"splashDamage":500,
+			"speed": 10,
+			"damage": 10000,
+			"bulletWidth": 20,
+			"bulletHeight": 20,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 1,
+			"homingPower":1,
+			"lightining": 30,
+			"lightningLength": 35,
+			"homingRange":3000,
+			"lifetime":600,
+			"backColor":"0825ff",
+			"fontColor":"0966f4",
+			"heatColor":"0966f4",
+			"trailColor":"3C14eC"
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 400 },
+		{ "item": "phase-fabric", "amount": 500 },
+		{ "item": "silicon", "amount": 6000 },
+		{ "item": "super-tithorium", "amount": 800 },
+		{ "item": "quantum-ingot", "amount": 10 },
+		{ "item": "星核", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "星核钻探器"
+}

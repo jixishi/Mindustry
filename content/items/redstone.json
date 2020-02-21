@@ -1,0 +1,11 @@
+{
+	"type":"material"
+	"name":"红石",
+	"description":"来自另一个时空的资源",
+	"color":"ff0000"
+	"hardness":3,
+	"cost":5,
+	"explosiveness":0.0,
+	"flammability":0.0,
+	"radioactivity":0.0,
+}

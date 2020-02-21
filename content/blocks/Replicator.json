@@ -1,0 +1,33 @@
+{
+	"type":"Drill",
+	"name": "复制机",
+	"description": "复制矿物,需要放置在矿物上方,通入UU即可复制矿物",
+	"size":3,
+	"health":700.0,
+	"hasPower":true,
+	"PowerUse":1,
+	"drawMineItem":true,
+	"drillTime":5,
+	"drawRim":false,
+	"hasItems":true,
+	"warmupSpeed":100000,
+	"tier":2147483647,
+	"hasLiquids":true,
+	"liquidBoostIntensity":50000,
+	"itemCapacity":60000000,
+	"liquidCapacity":30,
+	"consumes":{
+		"power":10.0,
+		"liquid":{
+			"liquid":"UU-Liquid",
+			"amount":0.05
+		}
+	},
+	"requirements": [
+		{ "item": "super-tithorium", "amount":200},
+		{"item": "quantum-ingot", "amount": 100},
+		{"item": "星核", "amount": 80}
+	],
+	"category": "production",
+	"research":"fku"
+}

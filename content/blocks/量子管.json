@@ -1,0 +1,14 @@
+{
+      "type":"Conduit",
+      "name":"量子管",
+      "description": "最好的管道。",
+      "health": 600,
+      "liquidCapacity": 6000,
+      "requirements": [
+		{"item": "metaglass", "amount": 12},
+		{"item": "quantum-ingot", "amount": 2},
+		{"item": "super-tithorium", "amount": 6}
+	],
+	"category": "liquid",
+    "research":"pulse-conduit"
+}

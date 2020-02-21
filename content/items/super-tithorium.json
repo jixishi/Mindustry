@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "超级钛钍合金",
+	"description": "世界上最好的材料…停止……这是最好的材料之一……",
+	"hardness": 6,
+	"cost": 6.0,
+	"color": "#7b68ee",
+	"radioactivity": 0.8
+}

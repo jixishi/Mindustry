@@ -1,0 +1,8 @@
+{
+	"name": "重水",
+	"description": "聚变隔离用",
+	"temperature": 0.1,
+    "viscosity": 1,
+    "effect": "melting",
+    "color": "3a5fcd"
+}

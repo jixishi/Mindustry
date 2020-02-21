@@ -1,0 +1,14 @@
+{
+	"name": "超级能量节点",
+	"description": "超级节点。",
+	"type": "PowerNode",
+	"health": 200,
+	"size": 3,
+	"maxNodes": 40,
+	"laserRange": 70,
+	"requirements": [
+		{ "item": "quantum-ingot", "amount": 6 }
+	],
+	"category": "power",
+	"research":"kiln"
+}

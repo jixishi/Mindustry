@@ -1,0 +1,12 @@
+{
+	"type":"SurgeWall",
+	"name":"巨型波浪墙",
+	"description":"3x3的波浪墙",
+	"health":8280,
+	"size":3,
+	"requirements":[
+		{"item":"surge-alloy","amount":54}
+	],
+	"category":"defense",
+	"alwaysUnlocked":true
+}

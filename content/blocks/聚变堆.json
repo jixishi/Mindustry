@@ -1,0 +1,34 @@
+{
+    "type": "ImpactReactor",
+    "name": "热聚变堆",
+    "description": "比冲击还强的产能。",
+    "size": 6,
+    "health": 1000.0,
+    "itemCapacity": 5,
+	"liquidCapacity": 300,
+    "hasLiquids": true,
+    "hasItems": true,
+    "explosionRadius": 99999,
+    "explosionDamage": 9999999,
+    "liquidBoostIntensity":1000.0,
+    "powerProduction": 30000,
+    "consumes": {
+    "power":150.0,
+           "liquid":{
+			"liquid":"heavy-water",
+			"amount":3,
+			"booster":true
+		}
+	},
+    "requirements": [
+		{"item": "nickel", "amount": 3000},
+		{"item": "invar", "amount": 6000},
+		{"item": "silver", "amount": 5000},
+		{"item": "steel", "amount": 2000},
+		{"item": "tin", "amount": 2000},
+		{"item": "super-tithorium", "amount": 500},
+		{"item": "quantum-ingot", "amount": 60}
+	],
+	"category": "power",
+	"research": "silver-crucible"
+}

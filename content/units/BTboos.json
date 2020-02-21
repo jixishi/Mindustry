@@ -1,0 +1,25 @@
+{
+    "type": "wraith",
+    "name": "BTboos",
+    "health": 3600000,
+    "mass": 60.0,
+    "speed": 0.1,
+    "maxVelocity": 30.0,
+	"rotateSpeed": 15,
+    "drag": 0.1,
+    "shootCone": 1.0,
+	"engineColor": "#0020ff",
+    "flying": true,
+    "engineOffset": 1,
+    "engineSize": 1,
+    "weapon": {
+        "reload": 360.0,
+        "width": 1.0,
+        "shots": 100,
+        "inaccuracy": 0.0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        "bullet": "standardThorium"
+    }
+}
